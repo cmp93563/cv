@@ -1,0 +1,193 @@
+/* divs: top, middle, bottom */
+
+/* remove default body margins */
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #abc6d3;
+}
+
+.bkgdcolor {
+    background-color: #688ea1;
+    border-bottom: 5px dotted #23343c;
+}
+
+.top {
+    background-color: #688ea1;
+    font-family: Lobster, serif;
+    height: 270px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #23343c;
+}
+
+.name {
+    float: right;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+img.fGif1 {
+    width: 230px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}
+
+img.headshot {
+    border: 7px solid #23343c;
+    border-radius: 10%;
+    width: 200px;
+}
+
+img.fGif2 {
+    position: absolute;
+    width: 230px;
+    top: 50px;
+    right: 120px;
+}
+
+/* h2 and h3 headings */
+.middle h3{
+    font-family: Lobster, serif;
+    color:#23343c;
+    font-size: 20pt;
+}
+
+.middle h2 {
+    font-family: Lobster, serif;
+    color:#23343c;
+    font-size: 24pt;
+}
+
+p {
+    font-size: 12pt;
+    font-family: Merriweather, serif;
+}
+
+dl, ul {
+    font-family: Merriweather, serif;
+    font-size: 12pt;
+    text-align: left;
+}
+
+/* for links */
+dl a {
+    color: rgb(172, 38, 132);
+    text-decoration: none;
+}
+
+dl a:hover {
+    background-color: rgb(172, 38, 132);
+    color: #ffffff;
+}
+
+/* Languages */
+.langs {
+    display: inline-block;
+    width: 250px;
+    padding: 20px;
+}
+
+ul { 
+    float: right;
+    list-style: none;
+    text-align: left;
+}
+
+/* Leadership and Experience */
+.LandE {
+    display: inline-block;
+    width: 450px;
+    padding: 20px;
+}
+
+/* skills section */
+
+.skills {
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+}
+
+.LImg {
+    float: left;
+    width: 150px;
+}
+
+.RImg {
+    float: right;
+    width: 150px;
+}
+
+/* contact link button */
+a.button:link {
+    margin: auto;
+    font-family: Lobster, serif;
+    background-color: whitesmoke;
+    color: #23343c;
+    padding: 0px 10px;
+    line-height: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    border: 5px solid #23343c;
+}
+
+/* contact link button:hover */
+a.button:hover {
+    background-color: #4f1162;
+    color: whitesmoke;
+    border: 5px solid #4f1162;
+} 
+
+/* horizontal rules*/
+hr {
+    border-bottom: 4px dotted #23343c;
+    border-top: hidden;
+    width: 35%;
+}
+
+.bottom {
+    text-align: center;
+    background-color: #688ea1;
+    height: 70px;
+    border-top: 5px dotted #23343c;
+}
+
+
+/* CONTACT PAGE STYLE */
+
+/* full body div */
+.contact {
+    text-align: center;
+    font-family: Merriweather, serif;
+}
+
+.heading {
+    font-family: Lobster, serif;
+    color:#4f1162;
+}
+ 
+.cRow {
+    display: inline-block;
+    width: 240px;
+    margin: auto;
+}
+
+.labels {
+    float: left;
+    margin-top: 1px;
+    line-height: 1.45;
+    font-family: Merriweather, serif;
+}
+
+.textboxes {
+    float: right;
+}
+
